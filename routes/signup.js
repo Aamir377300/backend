@@ -1,7 +1,7 @@
 const express = require('express')
 
 const signup_data_to_mongodb = require('../models/user')
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs')
 
 const product_conn_from_mongo = require('../models/product')
 
